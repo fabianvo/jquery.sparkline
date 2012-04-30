@@ -39,7 +39,7 @@
         getCurrentRegionFields: function () {
             var currentRegion = this.currentRegion;
             return {
-                fieldkey: currentRegion.substr(0, 1),
+                fieldkey: currentRegion,
                 value: this.values[currentRegion.substr(1)],
                 region: currentRegion
             };
