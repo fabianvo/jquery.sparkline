@@ -93,7 +93,7 @@
                 rangeColors: ['#d3dafe', '#a8b6ff', '#7f94ff'],
                 base: undefined, // set this to a number to change the base start number
                 tooltipFormat: new SPFormat('{{fieldkey:fields}} - {{value}}'),
-                tooltipValueLookups: { fields: {r4: 'Range Low', r3: 'Range Mid', r2: 'Range Max', p1: 'Performance', t0: 'Target'} }
+                tooltipValueLookups: { fields: {r: 'Range', p: 'Performance', t: 'Target'} }
             },
             // Defaults for pie charts
             pie: {
